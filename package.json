@@ -9,7 +9,6 @@
     "dev": "ts-node-dev --respawn --pretty --transpile-only src/app.ts",
     "start": "nodemon ./src/app.ts",
     "test": "jest ./test/app",
-    "test:watch": "jest --watch",
     "build": "babel src --out-dir dist --extensions \".ts,.js\""
   },
   "dependencies": {
