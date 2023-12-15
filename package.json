@@ -58,7 +58,7 @@
       "^.+\\.[t|j]sx?$": "babel-jest"
     },
     "testMatch": [
-      "app.test.ts"
+      "**/**/**.test.ts"
     ]
   }
 }
