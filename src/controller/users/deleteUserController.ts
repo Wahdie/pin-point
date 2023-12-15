@@ -40,7 +40,7 @@ export default async (req: Request, res: Response, next: NextFunction) => {
                     );
                })
           );
-          console.log(userGroups);
+          
           await UserModel.findByIdAndDelete(userId);
           res.status(200).json({
                message: "User deleted and removed from all groups successfully",
